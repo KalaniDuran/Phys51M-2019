@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  5 SEP 2019 18:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  6 SEP 2019 13:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -828,20 +828,25 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3] <25-19.png, id=22, 375.4025pt x 115.43124pt>
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+
+ []
+
+[3] <25-19.png, id=22, 375.4025pt x 115.43124pt>
 File: 25-19.png Graphic file (type png)
  <use 25-19.png>
-Package pdftex.def Info: 25-19.png used on input line 78.
+Package pdftex.def Info: 25-19.png used on input line 86.
 (pdftex.def)             Requested size: 187.70079pt x 57.71547pt.
  [4 <./25-19.png>] <25-23.png, id=28, 405.01312pt x 292.09125pt>
 File: 25-23.png Graphic file (type png)
  <use 25-23.png>
-Package pdftex.def Info: 25-23.png used on input line 97.
+Package pdftex.def Info: 25-23.png used on input line 105.
 (pdftex.def)             Requested size: 202.50606pt x 146.04526pt.
  [5 <./25-23.png>] <25-24.png, id=33, 323.2075pt x 348.30125pt>
 File: 25-24.png Graphic file (type png)
  <use 25-24.png>
-Package pdftex.def Info: 25-24.png used on input line 111.
+Package pdftex.def Info: 25-24.png used on input line 119.
 (pdftex.def)             Requested size: 161.60335pt x 174.15019pt.
  [6 <./25-24.png>] (./phys51m pset 1.aux) ) 
 Here is how much of TeX's memory you used:
@@ -861,7 +866,7 @@ amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw
 /palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palati
 no/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplr
 i8a.pfb>
-Output written on "phys51m pset 1.pdf" (6 pages, 187939 bytes).
+Output written on "phys51m pset 1.pdf" (6 pages, 192324 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  40 compressed objects within 1 object stream
