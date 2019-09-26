@@ -85,7 +85,6 @@ ii) a right circular cone with height $h$ and base radius $R$. [Hint: The calcul
 with the cone oriented as shown in the figure on page 61 of Schey] \\
 iii) a sphere of radius $R$.
 
-		
 	\end{problem}
 	
 	\begin{solution}
@@ -99,13 +98,12 @@ i) Calculate the divergence of $\vec{F}$ and evaluate it at a point $(x_0, y_0, 
 ii) Calculate $\varoiint_S \vec{F}\cdot \hat{\mathbf{n}} dA$ over the surface of a cube of side $a$ centered at the same point and whose  faces are parallel to the coordinate planes. \\
 iii)  Divide the above result by the volume of the cube and calculate the limit of the quotient as
 $a \rightarrow 0$. Compare your result with the divergence you calculated in part (i) and comment on your findings. \\
-b) Now repeat the procedure in part (a) for the vector function $\vec{G}(x,y,z) = yz\hat{\mathbf{x}} + xz\hat{\mathbf{y}} + xt\hat{\mathbf{z}}$.
+b) Now repeat the procedure in part (a) for the vector function $\vec{G}(x,y,z) = yz\hat{\mathbf{x}} + xz\hat{\mathbf{y}} + xy\hat{\mathbf{z}}$.
 	\end{problem}
 	
 	\begin{solution}
 		\vfill
 	\end{solution}
 	\newpage
-	
 	
 \end{document}
