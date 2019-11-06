@@ -66,10 +66,7 @@
 	\end{solution}
 	\newpage	
 	
-	\begin{problem}[HRK E33.24] Figure 33-50 shows a long wire carrying a current $i_2$. Calculate the resultant form acting on the loop. Assume that $a = 1.10 cm, b = 9.20 cm, L = 32.3 cm, i_1 = 28.6 A$, and $i_2 = 21.8A$.
-				\begin{center}
-		\includegraphics[scale=.3]{51m8pic4.jpg}
-		\end{center}
+	\begin{problem}[HRK E33.24] Figure 33-50 shows a long wire carrying a current $i_2$
 	\end{problem}
 	
 	\begin{solution}
@@ -77,10 +74,12 @@
 	\end{solution}
 	\newpage
 	
-	\begin{problem}A conductor consists of an infinite number of adjacent wires, each infinitely long and carrying a current $i$. Show that the lines of $\vec{B}$ are as represented in the figure and that $B$ for all points above and below the infinite current sheet is given by $B = \frac{1}{2} \mu_0 ni$, where $n$ is the number of wires per unit length.
-	\begin{center}
-\includegraphics[scale=.3]{51m8pic5.jpg}
-\end{center}		
+	\begin{problem}[HRK E32.32]
+A metal wire of mass $m$ slides without friction on two horizontal rails spaced a distance $d$ apart, as in Fig 32-36. The track lies in a vertical uniform magnetic field $\vec{B}$. A constant current $i$ flows from generator G along one rail, across the wire, and back down the other rail. Find the velocity (speed and direction) of the wire a s a function of time, assuming it to be at rest at $t = 0$.
+\begin{center}
+			\includegraphics[scale=.7]{51m7pic2.jpg}
+	\end{center}
+		
 	\end{problem}
 	
 	\begin{solution}
@@ -88,7 +87,10 @@
 	\end{solution}
 	\newpage
 	
-	\begin{problem}[HRK P33.13] The current density inside a long, solid, cylindrical wire of radius $a$ is in the direction of the axis and varies linearly with radial distance $r$ from the axis according to $j = \frac{j_0 r}{a}$. Find the magnetic field inside the wire. Express your answer in terms of the total current $i$ carried by the wire.
+	\begin{problem}[HRK P32.5] Bainbridge's mass spectrometer, as shown in Fig. 32-39, separates ions having the same velocity. The ions, after entering through slits $S_1$ and $S_2$, pass through a velocity selector composed of an electric field produced by the charged plates $P$ and $P'$, and a magnetic field $\vec{B}$ perpendicular to the electric field and the ion path. Those ions that pass undeviated through the crossed $\vec{E}$ and $\vec{B}$ fields enter into a region where a second magnetic field $\vec{B'}$ exists, and are bent into circular paths. A photographic plate registers their arrival. Show that $\frac{q}{m} = \frac{E}{rBB'}$, where $r$ is the radius of the circular orbit.
+\begin{center}
+			\includegraphics[scale=.7]{51m7pic3.jpg}
+	\end{center}
 	\end{problem}
 	
 	\begin{solution}
