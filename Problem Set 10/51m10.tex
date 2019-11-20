@@ -1,0 +1,129 @@
+\documentclass[11pt]{hmcpset}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb} 
+\usepackage{graphicx}
+% Numbering macros
+\usepackage[inline]{enumitem}
+\renewcommand{\theenumi}{J\arabic{enumi}}
+\renewcommand{\labelenumi}{{\bf \theenumi}:}
+\renewcommand{\theenumii}{\alph{enumii}}
+\renewcommand{\labelenumii}{(\theenumii)}
+% Some useful math notation
+\newcommand{\mat}[2][b]{\begin{#1matrix}#2\end{#1matrix}}
+\newcommand{\maps}{\colon}
+\renewcommand{\v}[1]{\ensuremath{\vec{#1}}}
+\newcommand{\h}[1]{\ensuremath{\hat{#1}}}
+% Define some math operators
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\vspan}{span}
+\DeclareMathOperator{\nullity}{nullity}
+\DeclareMathOperator{\kernel}{ker}
+\DeclareMathOperator{\range}{range}
+\DeclareMathOperator{\trace}{tr}
+% Define symbols
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\cC}{\mathcal{C}}
+\newcommand{\cF}{\mathcal{F}}
+\newcommand{\cB}{\mathcal{B}}
+\newcommand{\cD}{\mathcal{D}}
+\newcommand{\cE}{\mathcal{E}}
+\newcommand{\cP}{\mathcal{P}}
+\newcommand{\cV}{\mathcal{V}}
+\newcommand{\pe}{\phantom{-}}
+
+%\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+\usepackage{graphicx, wrapfig}
+\usepackage{amssymb, amsmath,esint}
+\usepackage{epstopdf}
+\usepackage[]{ifthen, amsmath,xspace}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\name{Name: $\rule{5cm}{0.1mm}$ Box \# $\rule{1cm}{0.1mm}$ }
+\class{Physics 51.M Section $\rule{0.5cm}{0.1mm}$}
+\assignment{Problem Set \#10}
+\duedate{25 November 2019}
+
+\begin{document}
+
+\begin{problem}[1. HRK: E34.13 (a)] As shown in the figure, a square loop of wire with side length $b$ lies partially on top of an infinite straight wire (a distance $a$ from one end) carrying a current $i(t) = A t^2 - B t$. Find the emf in the square loop as a function of time.
+%HRK: E34.13
+
+\noindent {\bf (b)} Let $a=12$\,cm, $b=16$\,cm, $A=4.5$\,A/s$^2$, $B=10$\,A/s, and $t_0=3$\,s. Sketch the emf as a function of time (with units), and indicate the emf at $t_0$. 
+\begin{center}
+		\includegraphics[width=4cm]{hw10f1}
+		\end{center}
+
+\end{problem}
+\newpage
+
+\begin{problem}[2. HRK: E34.30]
+A long solenoid has a diameter of $d$. When a current $i$ is passed through its windings, a uniform magnetic field $B_0$ is produced in its interior. By decreasing $i$, the field is caused to decrease at a rate of $\alpha = dB/dt$. Calculate the magnitude of the induced electric field a distance $d/6$, and a distance $2d/3$, from the axis of the solenoid.
+%HRK: E34.30
+
+\end{problem}
+\newpage
+
+\begin{problem}[3. HRK: P34.6]
+The figure shows two parallel loops of wire having a common axis. The smaller loop (radius $r$) is above the larger loop (radius $R$), by a distance $x \gg R$. Consequently the magnetic field, due to the current $i$ in the larger loop, is nearly constant throughout the smaller loop and equal to the value on the axis. Suppose that $x$ is increasing at the constant rate $v = dx/dt$.
+%HRK: P34.6
+
+\noindent {\bf (a)} Determine the magnetic flux across the area bounded by the smaller loop as a function of $x$.
+
+\noindent {\bf (b)} Compute the emf generated in the smaller loop.
+
+\noindent {\bf (c)} Determine the direction of the induced current flowing in the smaller loop.
+\begin{center}
+		\includegraphics[width=3cm]{hw10f3}
+		\end{center}
+\end{problem}
+\newpage
+
+\begin{problem}[4. HRK: P34.9]
+A rod with length $L$, mass $m$, and resistance $R$ slides without friction down parallel conducting rails of negligible resistance, as in the figure. The rails are connected together at the bottom as shown, forming a conducting loop with the rod as the top member. The plane of the rails makes an angle $\theta$ with the horizontal, and a uniform magnetic field $\vec{B}$ exists throughout the region. 
+%HRK: P34.9
+
+\noindent {\bf (a)} Show that the rod acquires a steady-state terminal velocity whose magnitude is
+\begin{equation*}
+v = \frac{mgR}{B^2L^2}\frac{\sin{\theta}}{\cos^2{\theta}}.
+\end{equation*}
+
+\noindent {\bf (b)} Show that the rate at which internal energy of the rod is increasing is equal to the rate at which the rod is losing gravitational potential energy.
+
+\noindent {\bf (c)} Discuss the situation if $\vec{B}$ were directed down instead of up. 
+\begin{center}
+		\includegraphics[width=4cm]{hw10f4}
+		\end{center}
+\end{problem}
+\newpage
+
+\begin{problem}[5. HRK: E36.P3]
+ Two long, parallel wires, each of radius $a$, whose centers are a distance $d$ apart carry equal currents in opposite directions. Show that, neglecting the flux within the wires themselves, the inductance of a length $\ell$ of such a pair of wires is given by
+\begin{equation*}
+L = \frac{\mu_0 \ell}{\pi}\ln\left( \frac{d-a}{a} \right).
+\end{equation*}
+%HRK: E36.P3
+\end{problem}
+\newpage
+
+\begin{problem}[*6. HRK: P36.9 (a)]
+Find the magnetic field inside a toroid
+of rectangular cross section with inner radius $a$ and outer radius
+$b$ (see Figure 36-3 in your textbook).  Make sure to specify
+magnitude and direction of the field.
+
+\noindent {\bf (b)} Find an expression for the stored magnetic energy
+density as a function of the radial distance $r$ inside the toroid of
+part (a).
+
+\noindent {\bf (c)} Integrate the energy density over the volume of
+the toroid, and calculate the total energy stored in the magnetic
+field of the toroid.
+
+\end{problem}
+\begin{flushleft}
+
+\newpage
+\end{flushleft}
+
+
+\end{document}
